@@ -5,6 +5,20 @@ body {
   background: #ece7e7;
 }
 
+.form-control {
+  margin-top: 0.25em;
+}
+
+.form-control:focus {
+  border-color: #3a1f36;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(238, 146, 215, 0.555);
+}
+
+.btn-outline-primary:hover{
+  color: #ffffff;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -23,4 +37,12 @@ body {
 
 .h-65 {
   height: 65%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.mt-8 {
+  margin-top: 6.5em;
 }
