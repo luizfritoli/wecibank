@@ -1,4 +1,5 @@
 import LoginCard from "../components/LoginCard/LoginCard"
+import { getUsers } from "@/lib/account"
 
 const Page = () => {
   return (
